@@ -1,0 +1,103 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:style="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/memelihayvan">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/patates"
+
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="1200dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PATATES"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#c40101"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:background="#EA2020"
+            android:text="  •  Patates, dünya genelinde en çok tüketilen sebzelerden biridir. Her yıl yaklaşık 350 milyon ton patates üretilmektedir.\n\n
+•  Patates, birçok farklı besin maddesi içerir ve sağlıklı bir sebzedir. İçerdiği C vitamini, potasyum ve lif, vücudun sağlıklı bir şekilde çalışmasına katkıda bulunur.\n\n
+•  Patates, tarihte önemli bir rol oynamıştır. İrlanda'da yaşanan patates kıtlığı, milyonlarca insanın hayatını kaybetmesine sebep olmuştur.\n\n"
+
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textColor="#FFFFFF" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/p"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PATLICAN"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#c40101"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:padding="10dp"
+            android:background="#EA2020"
+
+            android:text="  • Patlıcan, aslında bir meyvedir ve patlıcangiller familyasına aittir. Ancak yemek yapımında sebze olarak kullanılmaktadır.\n\n
+•   Patlıcan, dünya genelinde farklı şekillerde kullanılmaktadır. Hint mutfağındaki baharatlı yemeklerden İtalyan mutfağındaki parmigiana di melanzane'ye kadar birçok yemekte kullanılmaktadır.\n\n
+•   Bazı patlıcan çeşitleri, koyu mor renkleri nedeniyle siyah patlıcan olarak da adlandırılır. Ancak, patlıcanın farklı çeşitleri farklı renklerde olabilir ve beyaz, yeşil, sarı veya mor renklerde de bulunabilir.\n\n"
+            android:textAppearance="@android:style/TextAppearance.Medium" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/a"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ISPANAK"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#c40101"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:padding="10dp"
+            android:background="#EA2020"
+
+            android:text="  • Ispanak, sağlıklı bir sebzedir ve içerdiği birçok besin maddesi nedeniyle vücudun sağlıklı bir şekilde çalışmasına katkıda bulunur. Ispanak, A ve C vitaminleri, demir, kalsiyum, magnezyum ve folat gibi besinleri içerir.\n\n
+•  Ispanak, çocukların en sevmedikleri sebzelerden biri olarak bilinir. Ancak, yaratıcı ve eğlenceli yemek tarifleriyle çocukların sevdiği bir sebze haline gelebilir.\n\n
+•  Ispanak, çizgi roman ve animasyon karakteri Popeye'in en sevdiği yiyeceklerden biridir. Popeye, ıspanak yiyerek güçlü hale gelir ve maceralarında rakiplerini yenmeyi başarır. Bu nedenle, ıspanak Popeye sebzesi olarak da bilinir.\n\n
+"
+            android:textAppearance="@android:style/TextAppearance.Medium" />
+
+    </LinearLayout>
+</ScrollView>

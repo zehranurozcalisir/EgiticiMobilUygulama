@@ -1,0 +1,103 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:style="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/memelihayvan">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/nane"
+
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="1200dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NANE OTU"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#ec8937"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:background="#DDC83F"
+            android:text="  •  Nane otu aslında nane familyasına aittir ve türlü çeşitleri vardır. Genellikle ferahlatıcı kokusu nedeniyle kullanılır.\n\n
+•  Nane otunun tarihi çok eski dönemlere dayanır. Antik Mısır'da, Roma'da ve Yunanistan'da tıbbi amaçlar için kullanılmıştır.\n\n
+•  Nane otu ayrıca mutfakta da sıklıkla kullanılır. Sıcak yaz günlerinde serinletici içeceklerin, özellikle limonataların içine eklenir. Aynı zamanda birçok tatlı, kek ve kurabiyenin yapımında da kullanılır.\n\n"
+
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textColor="#FFFFFF" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/kekik"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="KEKİK OTU"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#ec8937"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:background="#DDC83F"
+
+            android:padding="10dp"
+            android:text="  • Kekik, Akdeniz bölgesinde yetişen bir bitki türüdür ve genellikle Orta Doğu ve Akdeniz mutfağında kullanılır. Hem taze hem de kurutulmuş yaprakları baharat olarak kullanılır.\n\n
+•   Kekik, antiseptik özellikleri nedeniyle tıbbi amaçlarla da kullanılır. Özellikle solunum yolu enfeksiyonlarına iyi gelir ve öksürük, soğuk algınlığı, bronşit ve sinüzit gibi rahatsızlıkların tedavisinde kullanılır.\n\n
+•  Kekik aynı zamanda aromaterapi alanında da kullanılır. Uçucu yağı, stres, kaygı ve uykusuzluğa iyi gelir. Ayrıca cilt bakımında da kullanılır ve egzama, sivilce ve mantar enfeksiyonları gibi cilt rahatsızlıklarının tedavisinde etkilidir.\n\n"
+            android:textAppearance="@android:style/TextAppearance.Medium" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/adacayi"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADAÇAYI OTU"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#ec8937"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:padding="10dp"
+            android:background="#DDC83F"
+
+            android:text="  •  Adaçayı otu, nane ailesine aittir ve Güney Avrupa'da, Akdeniz bölgesinde ve Batı Asya'da yetişir. Ancak günümüzde dünya genelinde yaygın olarak yetiştirilmektedir.\n\n
+•  Adaçayı otunun yapraklarındaki uçucu yağlar, aromatik özellikleri nedeniyle yaygın olarak kullanılır. Adaçayı yağı, sabun, şampuan, losyon gibi birçok kozmetik üründe kullanılır.\n\n
+•  Adaçayı otu ayrıca sağlık açısından da faydalıdır. Özellikle antioksidan özellikleri sayesinde bağışıklık sistemini güçlendirir ve hafızayı destekler. Adaçayı çayı, mide bulantısı, hazımsızlık, gaz ve sindirim sorunları gibi çeşitli sağlık sorunlarının tedavisinde de kullanılır.\n\n
+"
+            android:textAppearance="@android:style/TextAppearance.Medium" />
+
+    </LinearLayout>
+</ScrollView>

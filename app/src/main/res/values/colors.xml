@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#eef2e6</color>
+<color name="purple_700">#eef2e6</color>
+	<color name="teal_200">#eef2e6</color>
+    <color name="teal_700">#eef2e6</color>
+
+    <color name="baliklarmavi">#243876</color>
+    <color name="surungenleryesil">#64A945</color>
+    <color name="kuslarturuncu">#DA7E21</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="memelimor">#544671</color>
+    <color name="agaclar">#1c6758</color>
+<color name="cicekler">#eb1d36</color>
+<color name="my_mor">#660099</color>
+<color name="otlar">#ec8937</color>
+<color name="sebzeler">#c40101</color>
+</resources>

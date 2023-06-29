@@ -1,0 +1,107 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:style="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/memelihayvan">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/kavak"
+
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="1400dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="KAVAK AĞACI"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#1c6758"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:background="#4B876A"
+            android:text="  •  Kavak ağaçları, hızlı büyüyen ağaç türleri arasında yer alır ve bir yıl içinde ortalama 6-8 metre boy atabilirler.\n\n
+•  Kavak ağacı kabuğu, özellikle gövdenin alt kısımlarında beyaz renklidir ve dekoratif bir özelliğe sahiptir.\n\n
+•  Kavak ağaçları, hem tıbbi hem de dekoratif amaçlar için yaygın olarak kullanılır. Örneğin, kabuğu yara iyileştirici olarak kullanılır ve mobilya yapımında kullanılan sert ahşap malzemesi vardır.\n\n
+•  Kavak ağaçları, suyun yanında yetişen ağaç türleri arasında yer alır ve yüksek nem seviyelerine dayanıklıdır.\n\n
+• Kavak ağaçları, hava kirliliğine karşı oldukça dirençlidir ve bu nedenle kentsel alanlarda yaygın olarak kullanılır.\n\n"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textColor="#FFFFFF" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/mese"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MEŞE AĞACI"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#1c6758"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:background="#4B876A"
+
+            android:padding="10dp"
+            android:text="  •  Meşe ağacı, uzun ömürlü ağaç türleri arasında yer alır ve bazı türleri bin yıla kadar yaşayabilir.\n\n
+•  Meşe ağaçları, kabuklarından elde edilen taninler sayesinde boyaların ve deri ürünlerinin üretiminde kullanılır.\n\n
+•  Meşe ağaçları, fındık, meyve ve bal üretimi için de kullanılır.\n\n
+•  Meşe ağaçlarının yaprakları, ilkbaharda açılır ve çeşitli hayvanların beslenmesinde önemli bir rol oynar.\n\n
+•  Meşe ağaçları, sonbaharda harika renklere bürünen yaprakları ile ünlüdür.\n\n"
+            android:textAppearance="@android:style/TextAppearance.Medium" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/sogut"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SÖĞÜT AĞACI"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#1c6758"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:padding="10dp"
+            android:background="#4B876A"
+
+            android:text="  •  Söğüt ağacı, hızlı büyüyen bir ağaç türüdür ve bir yıl içinde 3-4 metre boy atabilir.\n\n
+•  Söğüt ağacı, iyi bir gölge ağacı olarak bilinir ve yaygın olarak parklar ve bahçeler için kullanılır.\n\n
+•  Söğüt ağacı kabuğu, özellikle genç ağaçlarda yeşilimsi bir renge sahiptir.\n\n
+•  Söğüt ağaçları, yüksek nem seviyelerine dayanıklıdır ve bu nedenle su kenarlarında sıklıkla görülür.\n\n
+•  Söğüt ağaçlarının dalları, özellikle ıslakken, kolayca bükülür ve bu nedenle birçok kültürde sepet yapımında kullanılır.\n\n"
+            android:textAppearance="@android:style/TextAppearance.Medium" />
+
+    </LinearLayout>
+</ScrollView>

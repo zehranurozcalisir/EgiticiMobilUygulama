@@ -1,0 +1,89 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:style="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/memelihayvan">
+
+        <Button
+            android:id="@+id/btnMemeliler"
+            android:text="Memeliler"
+            android:padding="10dp"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/memelimor"
+            android:textAllCaps="false"
+            android:layout_marginTop="200dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textColor="#FFFFFF"
+
+            />
+        <Button
+            android:id="@+id/btnKuslar"
+            android:text="Kuşlar"
+            android:padding="10dp"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:backgroundTint="@color/kuslarturuncu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center_vertical"
+            />
+        <Button
+            android:id="@+id/btnSurungenler"
+            android:text="Sürüngenler"
+
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:padding="10dp"
+            android:textSize="40sp"
+            android:backgroundTint="@color/surungenleryesil"
+
+            android:layout_gravity="center_vertical"
+            />
+        <Button
+            android:id="@+id/btnBaliklar"
+            android:text="Balıklar"
+            android:padding="10dp"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="200dp"
+            android:backgroundTint="@color/baliklarmavi"
+
+            android:textColor="#FFFFFF"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            />
+
+    </LinearLayout>
+</ScrollView>

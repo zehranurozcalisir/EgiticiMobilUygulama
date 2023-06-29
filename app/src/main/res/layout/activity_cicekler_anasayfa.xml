@@ -1,0 +1,103 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:style="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/memelihayvan">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/lale"
+
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="1200dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LALELER"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#eb1d36"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:background="#FA9494"
+            android:text="  •  Laleler, Türkiye kökenli bir çiçek türüdür ve Hollanda'da 17. yüzyılda soğan ihracatı yapmak amacıyla yetiştirilmeye başlamıştır.\n\n
+•  Lale soğanları, değerli bir para birimi haline gelmiş ve 1630'larda lale çılgınlığı olarak bilinen bir ekonomik balon patlatmıştır.\n\n
+•  Lalelerin renkleri, beyazdan koyu mora kadar değişir ve bazı türleri, çiçek yapraklarının uçlarında çıkıntılar yaparak papağan gagası olarak bilinen bir şekil oluşturur.\n\n"
+
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textColor="#FFFFFF" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/gul"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GÜLLER"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#eb1d36"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:background="#FA9494"
+
+            android:padding="10dp"
+            android:text="  • Güller, dünya genelinde en popüler çiçek türlerinden biridir ve binlerce yıldır yetiştirilmektedir.\n\n
+•   Güller, binlerce farklı renkte ve kokuda mevcuttur ve çeşitli kültürlerde farklı anlamlar taşırlar. Örneğin, kırmızı güller genellikle aşkı ifade etmek için kullanılırken, beyaz güller masumiyeti ve saflığı temsil eder.\n\n
+•  Güllerin yemeklerde kullanıldığı birçok tarif vardır. Örneğin, güllü şurup veya güllü reçel gibi tatlılar yapılabilir. Ayrıca bazı yemeklerde güllerin yaprakları veya çiçekleri baharat olarak kullanılır.\n\n"
+            android:textAppearance="@android:style/TextAppearance.Medium" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/sumbul"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SÜMBÜLLER"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#eb1d36"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:background="#FA9494"
+
+            android:padding="10dp"
+            android:text="  •  Sümbüller, ilkbaharın gelişinin habercisi olarak kabul edilir. Genellikle mor, pembe, beyaz ve sarı renklerinde açan bu çiçekler, baharın güzelliğini simgeler.\n\n
+•  Sümbüllerin yaprakları ve çiçekleri bazı türlerde zehirlidir. Bu nedenle, sümbül bitkisi evcil hayvanlar için zararlı olabilir ve tüketilmemesi gerekir.\n\n
+•  Sümbüllerin yapraklarından ve çiçeklerinden yapılan özler, geleneksel tıpta çeşitli amaçlarla kullanılır. Özellikle, migren ve sinüzit gibi baş ağrısı ve solunum yolu rahatsızlıklarının tedavisinde kullanılır.\n\n
+"
+            android:textAppearance="@android:style/TextAppearance.Medium" />
+
+    </LinearLayout>
+</ScrollView>

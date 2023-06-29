@@ -1,0 +1,106 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:style="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/memelihayvan"
+
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/balina"
+
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="1100dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BALİNALAR"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#243876"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:background="#677ea6"
+            android:text="  •  Balinalar, dünyanın en büyük hayvanlarıdır. En büyük tür olan mavi balina, 30 metre uzunluğa ve 173 tona kadar ağırlığa ulaşabilir.\n\n
+•  Balinalar, insanlar gibi sıcak kanlıdır ve memeli hayvanlar sınıfına girerler. Bu yüzden, yavrularını emzirirler ve akciğerleri ile solunum yaparlar.\n\n
+•  Bazı balina türleri, insanlarla iletişim kurmak için şarkı söylerler. Bu şarkılar, kilometrelerce uzaklıktaki diğer balinalar tarafından duyulabilir ve iletişim kurmalarına yardımcı olur.\n\n"
+
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textColor="#FFFFFF" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/kopekbaligi"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="KÖPEK BALIKLARI"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#243876"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:background="#677ea6"
+            android:text="  • Köpek balıkları, aslında köpek gibi adeta bir av makinesi gibidir. Güçlü çeneleri, keskin dişleri ve gelişmiş duyuları sayesinde, avlanmak için çok yeteneklidirler.\n\n
+•   Köpek balıkları, 450'den fazla türü ile bilinen en geniş köpekbalığı familyasına sahiptir. Bunların arasında en yaygın olanı köpekbalığı, kara uçlu köpekbalığı ve beyaz uçlu köpekbalığıdır.\n\n
+•   Köpek balıkları, diğer balık türlerine göre oldukça uzun yaşarlar. Bazı türler, yüz yıldan fazla yaşayabilir. Örneğin, Grönland köpek balığı, yaklaşık 400 yıl yaşayabilen en uzun yaşayan omurgalı hayvanlardan biridir.\n\n"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textColor="#FFFFFF" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/balik"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PALYAÇO BALIKLARI"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#243876"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:padding="10dp"
+            android:background="#677ea6"
+            android:text="  •  Palyaço balığı, şeritli turuncu-beyaz rengi ve dairesel şekilli yüzgeçleri ile tanınan tropik bir deniz balığıdır. Genellikle mercan kayalıklarında ve lagünlerde yaşarlar.\n\n
+•  Palyaço balıkları, diğer deniz canlılarına oranla oldukça uzun bir ömre sahiptirler. Yüzme keselerinde bulunan mukus, onları birçok hastalıktan korur ve yaşam sürelerini artırır. \n\n
+•  Palyaço balıkları, kendilerine özgü bir türden temizleyici balıkla simbiyotik bir ilişki içindedirler. Bu temizleyici balık, palyaço balığına zarar vermeyen parazitleri temizlerken palyaço balığı da onun için bir koruma alanı sağlar.
+\n\n
+"
+            android:textAppearance="@android:style/TextAppearance.Medium" />
+
+    </LinearLayout>
+</ScrollView>

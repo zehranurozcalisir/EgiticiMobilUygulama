@@ -1,0 +1,87 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:style="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center_vertical"
+    android:layout_gravity="center_vertical"
+    android:background="@drawable/memelihayvan">
+
+    <Button
+            android:id="@+id/btnAgaclar"
+        android:text="Ağaçlar"
+        android:padding="10dp"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="@color/agaclar"
+
+        />
+    <Button
+        android:id="@+id/btnCicekler"
+        android:text="Çiçekler"
+        android:padding="10dp"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:layout_gravity="center_vertical"
+        android:backgroundTint="@color/cicekler"
+
+        />
+    <Button
+        android:id="@+id/btnOtlar"
+        android:text="Otlar"
+
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:padding="10dp"
+        android:textSize="40sp"
+        android:layout_gravity="center_vertical"
+        android:backgroundTint="@color/otlar"
+
+        />
+    <Button
+        android:id="@+id/btnSebzeler"
+        android:text="Sebzeler"
+        android:padding="10dp"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="200dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:backgroundTint="@color/sebzeler"
+        />
+</LinearLayout>
+</ScrollView>

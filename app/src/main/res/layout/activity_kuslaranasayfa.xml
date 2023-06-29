@@ -1,0 +1,106 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:style="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/memelihayvan"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/leylek"
+
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="1000dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LEYLEKLER"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#DA7E21"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:background="#E8A45F"
+            android:text="  •  Leylekler, yuvalarını genellikle ağaçların tepesine, çatılara veya elektrik direklerine yaparlar ve genellikle aynı yere yıllarca geri dönerler.\n\n
+•  Leylekler, göçmen kuşlar arasında en popüler olanlardan biridir ve kışın Afrika'ya göç ederler.\n\n
+•  Leylekler, doğurganlık, refah ve şans simgeleri olarak kabul edilirler ve bu nedenle birçok kültürde önemlidirler.\n\n"
+
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textColor="#FFFFFF" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/penguen"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PENGUENLER"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#DA7E21"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="#E8A45F"
+
+            android:padding="10dp"
+            android:text="  • Penguenler, dünyadaki en hızlı yüzen kuşlardır ve saatte ortalama 20 mil hızla yüzebilirler.\n\n
+•   Penguenler, tek yumurta bırakırlar ve anne baba sırayla yavruyu inkübe ederler. Bu süre boyunca, diğer ebeveynler yiyecek aramaya çıkarlar.\n\n
+•   Penguenler, sadece kutup bölgelerinde yaşayan kuş türleridir ve yüksek rakımlardaki soğuk bölgelerde rahatlıkla hayatta kalabilirler.\n\n"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textColor="#FFFFFF" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/papagan"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PAPAĞANLAR"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#DA7E21"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:background="#E8A45F"
+
+            android:padding="10dp"
+            android:text="  •  Bazı papağan türleri, binlerce kelimeyi öğrenebilir ve konuşabilir. Bu özellikleri nedeniyle evcil hayvan olarak popülerdirler.\n\n
+•  Papağanlar, sadece meyve ve tohum yemekle yetinmeyip, aynı zamanda böcek, kertenkele ve diğer küçük hayvanları da yerler. \n\n
+•  Bazı papağan türleri, tüylerindeki renklerin parlaklığı ve çeşitliliği ile dikkat çekerler. Örneğin, erkek yeşil taçlı amazon papağanları, dişilerinden daha parlak tüylere sahiptirler.\n\n
+"
+            android:textAppearance="@android:style/TextAppearance.Medium" />
+
+    </LinearLayout>
+</ScrollView>

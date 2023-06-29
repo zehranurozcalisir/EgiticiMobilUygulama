@@ -1,0 +1,104 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:style="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/memelihayvan"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/timsah"
+
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="1300dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TİMSAHLAR"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#64A945"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:background="#9dce5a"
+            android:text="  •  Timsahların dişleri her zaman dışarıda değildir. Timsahlar ağzını kapattıklarında alt çenesinin bir kısmı dışarıda kalır ve bu sayede dişleri gözükür. Ama ağızlarını açtıklarında, dişlerinin çoğu içeri girer ve sadece birkaçı gözükür.\n\n
+•  Timsahların yemeklerini sindirebilmek için güneş ışığına ihtiyaçları var. Sindirimleri için gereken sıcaklığı elde etmek için timsahlar genellikle güneşin altında uzanır ve ısınır.\n\n
+•  Timsahların çok güçlü bir ısırma gücü vardır. Bazı timsah türleri, ağızlarını açtıklarında neredeyse bir insanın gövdesini kolayca yutabilecek kadar büyük bir ağız açıklığına sahiptir.\n\n"
+
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textColor="#FFFFFF" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/k"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="KAPLUMBAĞALAR"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#64A945"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:background="#9dce5a"
+            android:text="  • Kaplumbağaların kabukları, hem dış iskeletleri hem de savunma mekanizmalarıdır. Kabukları, yırtıcılardan korunmak için gereken mükemmel bir sığınak sağlar.\n\n
+•   Kaplumbağaların bazı türleri, uzun mesafeleri kat etmek için yıllarca seyahat edebilirler. Örneğin, deniz kaplumbağaları binlerce kilometrelik bir yolculuktan sonra doğdukları kumsala geri dönebilirler.\n\n
+•   Kaplumbağalar, iyi bir hafızaya sahiptirler. Çoğu kaplumbağa, doğdukları yerin kokusunu ömür boyu hatırlayabilir ve gerektiğinde geri dönebilir.\n\n"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textColor="#FFFFFF" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/iguana"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="İGUANALAR"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#64A945"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:background="#9dce5a"
+            android:padding="10dp"
+            android:text="  •  Bazı iguana türleri, kuyruklarını düşürebilirler. Bu, bir yırtıcının onlara saldırdığı durumlarda kuyruklarını düşürerek kaçmalarını sağlar.\n\n
+•  İguanalar, renk değiştirme yeteneklerine sahiptirler. Çevrelerine uyum sağlamak veya iletişim kurmak için ciltlerindeki pigmentleri kontrol ederek renklerini değiştirebilirler. \n\n
+•  İguana yavruları, doğduktan sonra hemen hayatta kalmak için çevik olmalıdır. Yavrular, sadece birkaç dakika içinde yumurtadan çıkıp kaçabilen diğer hayvanlardan kaçınmak için hızlı bir şekilde hareket edebilirler.\n\n
+"
+            android:textAppearance="@android:style/TextAppearance.Medium" />
+
+    </LinearLayout>
+</ScrollView>

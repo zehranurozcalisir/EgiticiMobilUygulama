@@ -1,0 +1,104 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:style="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/memelihayvan"
+      >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/fil"
+
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="1000dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FİLLER"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#544671"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:background="#aaa5ba"
+            android:text="  •  Filller, dünyanın en büyük karasal memelileridir ve bazıları 5 metreye kadar yükselebilen ve 6 ton ağırlığına ulaşabilen devasa bir vücuda sahiptir.\n\n
+•  Fil dişleri, yasadışı ticaret nedeniyle büyük bir tehlike altında ve bu nedenle koruma altına alınmıştır.\n\n
+•  Filllerin hafızaları çok güçlüdür ve uzun süreli bellekleri sayesinde yüzlerce kilometre uzaktaki su kaynaklarını hatırlayabilirler.\n\n"
+
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textColor="#FFFFFF" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/tavsan"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TAVŞANLAR"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#544671"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:background="#aaa5ba"
+            android:text="  • Yabani tavşanların özellikle gece görüşleri çok iyi olup, avcılarından kaçmalarına yardımcı olur.\n\n
+•   Tavşanlar, dişleri sürekli büyüdüğü için, kemirmek için sürekli bir şeyler yemek zorundadırlar.\n\n
+•   Tavşanlar, sevimli hareketleri ve çeviklikleri nedeniyle evcil hayvan olarak da çok popülerdirler.\n\n"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textColor="#FFFFFF" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/zurafa"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ZÜRAFALAR"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#544671"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:padding="10dp"
+            android:background="#aaa5ba"
+            android:text="  •  Zürafalar, uzun boyunları sayesinde ağaçlardaki yapraklara erişebilirler ve yükseklikleri nedeniyle dünyanın en uzun hayvanlarıdır.\n\n
+•  Zürafalar, düşmanlarına karşı sert bir şekilde savunma yapabilirler ve özellikle düşmanlarına tekme atmaları ile bilinirler. \n\n
+•  Zürafaların lekeleri, birbirinden farklı şekiller ve boyutlarda olduğu için, her bir zürafanın lekeleri benzersizdir ve birbirinden ayırt edilebilir.\n\n
+"
+            android:textAppearance="@android:style/TextAppearance.Medium" />
+
+    </LinearLayout>
+</ScrollView>
